@@ -10,10 +10,16 @@
   <body>
     <header>
       <a class="store_name"><img class="logo" src="img/Asset 2@3x.png"></a>
+      <div>
+          <input placeholder="Search" type="text"><button>Search</button>
+      </div>
+    
     </header>
     <nav>
       <ul class="nav_bar">
         <li><a href="index.html">Home</a></li>
+        <li><a href="men.html">Men</a></li>
+        <li><a href="women.html">Women</a></li>
         <li><a href="products.html">Products</a></li>
         <li><a href="shop.html">Shop</a></li>
         <li><a href="contact.html">Contact</a></li>
@@ -21,25 +27,34 @@
     </nav>
 
     <main>
-        <h1 class="banner">Get 50% off your next order!</h1>
+        <h1 class="banner"></h1>
         <section>
-          <article>
-            <img class="banner" src="img/banner.png">
+            <div>
+              <button class="order">ORDER</button>
+             </div>
+          <article> 
+            <div class="image-container">
+              <img class="banner" src="img/banner1.jpg">
+              <div class="overlay-text">Exquisite, Rare, & Limited-Edition.</div>
+            </div>
           </article>
-          <div>
-            <button>ORDER</button>
-          </div>
         </section>
         <section>
           <article>
-            <h1>
+            <a href="featured.html"><h1>
               <button>FEATURED COLLECTION</button>
-            </h1>
+            </h1></a>
+            <div>
+              <img class="three_images" src="img/featured.jpg">
+            </div>
           </article>
              <article>
             <h1>
               <button>CHRISTMAS SALE</button>
             </h1>
+            <div>
+              <img class="christmas" src="img/christmas.jpg" alt="">
+            </div>
           </article>
              <article>
             <h1>
@@ -53,7 +68,13 @@
     </main>
 
     <footer>
-      <img class="mini_logo" src="img/Asset 1@3x.png" alt="">
+      <div>
+         <img class="mini_logo" src="img/Asset 1@3x.png" alt="">
+      </div>
+        <hr>
+      <div>
+        <p class="copyright">@M.G. Mangata Gallo Copyright</p>
+      </div>
     </footer>
   </body>
 </html>
