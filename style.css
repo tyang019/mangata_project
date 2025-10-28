@@ -36,7 +36,6 @@ h1{
   text-align: center;
 }
 .logo{
-
   height: 5rem;
 }
 .store_name{
@@ -45,7 +44,7 @@ h1{
   padding: 2rem;
 }
 .nav_bar {
-  padding: 1rem;
+  padding: 2rem;
   background-color: black;
   border-radius: 2rem;
   list-style: none;
@@ -72,16 +71,24 @@ button:hover{
   color: black;
   transition: 400ms;
 }
-ul{
+ul {
   display: flex;
   justify-content: space-around;
   font-size: 1.5rem;
 }
-li{
-  display: block;
-  padding: 1rem;
-  border-radius: 2rem;
+@media(max-width: 768px){
+    ul{
+    display: flex;
+    justify-content: space-around;
+    font-size: 1.5rem;
+  }
+  li{
+    display: block;
+    padding: 1rem;
+    border-radius: 2rem;
+    }
 }
+
 li a:hover{
    background-color: rgb(249, 222, 179);
   border-radius: 2rem;
@@ -100,19 +107,21 @@ div{
   margin-left: auto;
   margin-right: auto;
 }
-.three_images{
-  height: 20rem;
-  padding: 1rem;
+.img{
+  max-width: 100%;
+  height: auto;
 }
-.christmas{
-  height: 320px;
+.three_images, .christmas{
+  height: 25rem;
   padding: 1rem;
 }
 section{
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: space-evenly;
-  padding-bottom: 3rem;
+  gap: 1.5rem;
+  padding: 2rem;
 }
 article li{
   display: flex;
@@ -127,9 +136,10 @@ article li{
   text-align: end;
 }
 hr{
-  padding-left: 20rem;
+  margin: auto;
+  width: 90%;
   border: none;
-  height: 0.8px;
+  height: 1px;
   background-color: black;
 }
 footer{
