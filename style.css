@@ -10,13 +10,16 @@ header{
 }
 .search-bar-position{
   display: flex;
-  justify-content: end;
+  align-items: end;
 }
 .search-button{
   font-size: 1.3rem;
+  padding: 0.5rem;
+  width: 7rem;
 }
 body{
     font-family: Bell MT;
+    background-color: #f7f7f7;
 }
 .image-container{
    position: relative; 
@@ -49,12 +52,12 @@ body{
 h1{
   text-align: center;
 }
-.logo{
+.logo, .logoTiny{
   height: 5rem;
 }
 @media(max-width: 768px){
-  .logo{
-     width: 100%;
+  .logo, .logoTiny{
+    width: 100%;
     height: auto;
   }
 }
@@ -107,6 +110,12 @@ button{
   margin-left: 1rem;
   border-radius: 3rem;
 }
+button:hover{
+  background-color: rgb(249, 222, 179);
+  color: black;
+  transition: 400ms;
+  box-shadow: 1px 2px 7px black;
+}
 #overlay {
   position: fixed;
   top: 0;
@@ -141,12 +150,6 @@ button{
 .order{
   background-color: rgb(219, 219, 231);
   color: black;
-}
-button:hover{
-  background-color: rgb(249, 222, 179);
-  color: black;
-  transition: 400ms;
-  box-shadow: 1px 2px 7px black;
 }
 a{
   color: beige; 
