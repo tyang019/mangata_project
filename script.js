@@ -6,6 +6,7 @@ const overlay = document.getElementById('overlay');
 const confirmBtn = document.getElementById('confirmBtn');
 
 
+
 //2. Add Event Listener 
 confirmBtn.addEventListener('click', function(){
  overlay.style.display = 'none';
