@@ -17,6 +17,18 @@ header{
   padding: 0.5rem;
   width: 7rem;
 }
+section{
+  
+}
+.three_articles{
+  
+}
+article{
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 1px 2px 7px black;
+  object-fit: cover;
+}
 body{
     font-family: Bell MT;
     background-color: #f7f7f7;
@@ -38,7 +50,7 @@ body{
 .overlay-text{
    position: absolute;        /* positioned relative to .hero */
   top: 47%;                  /* center vertically */
-  left: 50%;                 /* center horizontally */
+  left: 45%;                 /* center horizontally */
   transform: translate(5%,); /* perfect centering */
   color: white;
   text-shadow: 0 2px 6px rgba(0,0,0,0.6);
@@ -78,7 +90,9 @@ ul {
     border-radius: 2rem;
     }
 }
-
+.three-articles{
+  background-color: green;
+}
 li a:hover{
    background-color: rgb(249, 222, 179);
   border-radius: 2rem;
@@ -104,7 +118,7 @@ button{
   padding: 1rem;
   cursor: pointer;
   font-size: 1.5rem;
-  background-color: black;
+  background-color:black;
   color: white;
   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   margin-left: 1rem;
